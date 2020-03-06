@@ -1,0 +1,22 @@
+{
+  "name": "facebook-feed-api",
+  "version": "1.0.0",
+  "description": "API service for Streaming Facebook Feed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alannovaldi/facebook-feed-api.git"
+  },
+  "author": "alan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alannovaldi/facebook-feed-api/issues"
+  },
+  "homepage": "https://github.com/alannovaldi/facebook-feed-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0"
+  }
+}
