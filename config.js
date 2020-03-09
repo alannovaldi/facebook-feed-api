@@ -1,2 +1,2 @@
-const token = 'EAAD27GnyIZAEBALH7RYhMI5WmhKFpu1nG6p5gzCY14fHP8tfZAUcQds4X575ZCZBuO6n7w5YZC802x1vtC7c5SqZBc3O3BykZCY1v7AUe8SvxCunIAklj2ckz3MNXLatNVm3ZAoT6elbZBu1cUWaGdoDkZAzOrX1OJZCwSPYPqMpDf2OZBPPQKGYxUIjZB6nr6GqVlzw6nlHw5hFe3xeVZCvPsjw3RDr5ZCowtdQL6mYhs1HSLijwZDZD'
+const token = 'access_token'
 exports.urls = 'https://graph.facebook.com/v5.0/me?fields=id,name,feed{created_time,id,caption,name,link,message}&access_token=' + token
