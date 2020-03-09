@@ -1,3 +1,2 @@
-var token = 'EAAD27GnyIZAEBAEyCQ6npYTwK3rC4dmseXKpqUl9FniRgDL4StRvUTmKa8nIV62cGcfypWKHz47q9qkXMvvS7mOZAfRSgW8HWhsiDZAUZCcFjoT3IGbvLPnXw3CdZBOv69eTGxXK4RBnBGqKNj0StUtU0hKgq2plBdic5oEPRLBY0viU7Ia7SPMUqNZAnY07yHetHYoDLj4wAX2oEjw2DSq6VuQ2WacGwOUTZAzn12EGAZDZD'
-
-exports.urls = 'https://graph.facebook.com/v5.0/me?fields=id,name,feed{created_time,id,caption,name,link,message}&access_token=' + token
+exports.token = 'access_token'
+exports.urls = 'https://graph.facebook.com/v5.0/me?fields=id,name,feed{created_time,id,caption,name,link,message}&access_token=' + this.token

@@ -1,5 +1,10 @@
 const http = require('http');
 const controller = require('./controller')
+const config = require('./config.js')
+
+config.token = process.argv[process.argv.length - 1];
+
+// console.log(config.urls);
 
 server = http.createServer(function(request, response){
     console.log(request.url);
