@@ -18,18 +18,18 @@ node server.js
 
 After running those instruction, these are the Endpoints the application can provide.
 
-1. Index Page&nbsp;
-    Method: GET&nbsp;
-    Endpoint:&nbsp;
-    ``` http://localhost:8080/facebook-feed ```&nbsp;
-    Description: Stream list of all Feeds your account had posted with pagination and limit of 25 feeds.&nbsp;
-2. Next Page of Pagination&nbsp;
-    Method: GET&nbsp;
-    Endpoint:&nbsp;
-    ``` http://localhost:8080/facebook-feed/next ```&nbsp;
-    Description: Move into next page for list of all your Feeds.&nbsp;
-3. Previous Page of Pagination&nbsp;
-    Method: GET&nbsp;
-    Endpoint: &nbsp;
-    ``` http://localhost:8080/facebook-feed/prev ```&nbsp;
-    Description: Move into previous page for list of all your Feeds.&nbsp;
+1. Index Page
+Method: GET
+Endpoint:
+``` http://localhost:8080/facebook-feed ```
+Description: Stream list of all Feeds your account had posted with pagination and limit of 25 feeds.
+2. Next Page of Pagination
+Method: GET
+Endpoint:
+``` http://localhost:8080/facebook-feed/next ```
+Description: Move into next page for list of all your Feeds.
+3. Previous Page of Pagination
+Method: GET
+Endpoint: 
+``` http://localhost:8080/facebook-feed/prev ```
+Description: Move into previous page for list of all your Feeds.
